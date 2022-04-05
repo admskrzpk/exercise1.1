@@ -12,7 +12,7 @@ class LetterValueSumSpec extends AnyFunSuite {
     assert(sumOfLetters("microspectrophotometries") == 317)
   }
 
-  test("function should ommit characters which are not an letter") {
+  test("function should ommit characters which are not a letter") {
     assert(sumOfLetters("sc=al!a acAd31emy") == 88)
   }
 }
